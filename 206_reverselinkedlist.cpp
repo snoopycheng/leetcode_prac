@@ -58,13 +58,13 @@ int main(){
     Solution sol;
 
     // ex1
-    // vector<int> vec = {1, 2, 3, 4, 5};
+    vector<int> vec = {1, 2, 3, 4, 5};
 
     // ex2
     // vector<int> vec = {1, 2};
 
     // ex3
-    vector<int> vec = {};
+    // vector<int> vec = {};
 
     ListNode* list = sol.vector2linkedlist(vec);
     ListNode* ans = sol.reverseList(list);
